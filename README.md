@@ -1,6 +1,6 @@
 ## Bem-vindo! 👏
 
-### Projeto Lessons Lessons Learned
+### Projeto Lessons Learned
 
 Esse projeto foi desenvolvido durante o curso da Trybe com o objetivo de colocar em prática tudo o que aprendemos no bloco de HTML e CSS. 
 
