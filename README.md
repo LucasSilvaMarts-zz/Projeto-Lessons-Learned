@@ -8,4 +8,9 @@ Esse projeto foi desenvolvido durante o curso da Trybe com o objetivo de colocar
 
 Durante o desenvolvimento do projeto, eu coloquei em prática HTML5 semântico e CSS.
 
+### **Adicionais** 
+
+Personalizei a Scrollbar.
+
 ### Resultado 👉 
+
