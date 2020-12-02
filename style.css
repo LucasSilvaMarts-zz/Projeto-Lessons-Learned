@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253 , 251 , 251);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 115px;
+  background-color: rgb(66 , 66 , 66);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  padding-top: 30px;
+}
+
+#titulo {
+  display: inline;
+  font-family: Oxanium, cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(46 , 254 , 247);
+  margin-top: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+ul {
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-right: 80px;
+}
+
+#nav-btn li {
+  display: inline;
+  margin: 15px;
+}
+
+#nav-btn li a {
+  text-decoration: none;
+  color: rgb(1 , 223 , 215);
+  font-family: Oxanium, cursive;
+}
+
+#nav-btn li a:hover {
+  color: rgb(46 , 254 , 247);
+}
+
+#hero-card {
+  width: 375px;
+  height: 385px;
+  margin-top: 250px;
+  margin-left: 50px;
+  border-radius: 20px;
+  background-color: rgb(66 , 66 , 66);
+  box-shadow: 20px 15px 10px rgb(56 , 56 , 56);
+}
+
+.lado-esquerdo p {
+  line-height: 18px;
+}
+
+.lado-direito p {
+  line-height: 18px;
+}
+
+#hero-card p {
+  text-align: center;
+  font-size: 30px;
+  font-family: Oxanium, cursive;
+  text-transform: uppercase;
+  padding-top: 140px;
+  color: rgb(46 , 254 , 247);
+  cursor: pointer;
+}
+
+#card-links {
+  margin-top: 30px;
+}
+
+#card-list {
+  width: 100%;
+}
+
+#card-list li {
+  display: inline;
+  margin-right: 55px;
+}
+
+#card-list strong {
+  font-size: 20px;
+  color: rgb(234 , 234 , 234);
+  border: 2px solid rgb(234 , 234 , 234);
+  border-radius: 100px;
+  padding: 10px;
+}
+
+
+#minha_foto {
+  position: absolute;
+  left: 160px;
+  top: 170px;
+  width: 150px;
+  height: 150px;
+  border: 4px solid rgb(1 , 223 , 215);
+  border-radius: 100px;
+}
+
+#licoes_aprendidas {
+  float: right;
+  width: 320px;
+  margin-top: -360px;
+  margin-right: 420px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 10px 10px rgb(46 , 254 , 247);
+  background-color: rgb(66 , 66 , 66);
+}
+
+#licoes_aprendidas li {
+  color: rgb(234 , 234 , 234);
+  font-family: Oxanium, cursive;
+  margin-left: 10px;
+}
+
+#licoes_a_aprender {
+  float: right;
+  width: 320px;
+  margin-top: -360px;
+  margin-right: 20px;
+  padding: 25px;
+  list-style: none;
+  text-align: justify;
+  border-radius: 15px;
+  box-shadow: 10px 10px rgb(46 , 254 , 247);
+  background-color: rgb(66 , 66 , 66);
+}
+
+#licoes_a_aprender li {
+  color: rgb(234 , 234 , 234);
+  font-family: Oxanium, cursive;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 150px;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: Roboto, sans-serif;
+  color: rgb(234 , 234 , 234);
+  background-color: rgb(66 , 66 , 66);
+  box-shadow: 10px 10px rgb(46 , 254 , 247);
+  float: left;
+}
+
+.lado-esquerdo h1 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: rgb(46 , 254 , 247);
+}
+
+.lado-direito {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 720px;
+  margin-right: 100px;
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: Roboto, sans-serif;
+  color: rgb(234 , 234 , 234);
+  background-color: rgb(66 , 66 , 66);
+  box-shadow: 10px 10px rgb(46 , 254 , 247);
+  float: right;
+}
+
+.lado-direito h1 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: rgb(46 , 254 , 247);
+}
+
+#rodape {
+  height: 100px;
+  margin-top: 500px;
+  background-color: rgb(66 , 66 , 66);
+}
+
+#rodape p {
+  font-family: Oxanium, cursive;
+  color: rgb(46 , 254 , 247);
+  text-align: center;
+  padding-top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(180 , 180 , 180);
+  border-radius: 6px;
+}
